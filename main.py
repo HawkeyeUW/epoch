@@ -11,6 +11,6 @@ def get_epoch():
     return str(result)
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 6738))
+    port = int(os.environ.get("PORT", 6725))
     app.run(host='0.0.0.0', port=port)
     print(get_epoch())
